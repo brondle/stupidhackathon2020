@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  font: 16px arial, sans-serif;
+}
+
+.stupid-header {
+  color: #0aadef;
+  text-transform: uppercase;
+}
+
+.stupid-content-image {
+  float: left;
+  width: 45%;
+  padding: 2.5%;
+}
+
+.stupid-content-text {
+  float: right;
+  width: 40%;
+  padding: 5%;
+}
