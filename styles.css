@@ -9,13 +9,41 @@ body {
 }
 
 .stupid-content-image {
-  float: left;
-  width: 45%;
-  padding: 2.5%;
+  display: inline-block;
+  width: 40%;
+  padding: 15px 2.5%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.stupid-categories {
+  width: 80%;
+  padding: 0 10%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.stupid-category {
+  display: inline-block;
+  padding: 20px;
+  background-color: yellow;
 }
 
 .stupid-content-text {
-  float: right;
+  display: inline-block;
   width: 40%;
-  padding: 5%;
+  padding: 15px 5%;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .stupid-content-image,
+  .stupid-content-text {
+    width: 90%;
+    padding: 10%;
+    float: none;
+  }
 }
