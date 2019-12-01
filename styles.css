@@ -39,6 +39,11 @@ img {
   padding: 15px 5%;
 }
 
+.stupid-fake-sponsors {
+  text-transform: uppercase;
+
+}
+
 @media only screen and (max-width: 768px) {
 
   .stupid-content-image,
