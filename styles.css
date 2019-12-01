@@ -20,15 +20,16 @@ img {
 }
 
 .stupid-categories {
-  width: 80%;
-  padding: 0 10%;
+  text-align: center;
+  width: 100%;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .stupid-category {
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
+  margin: 5px;
   background-color: yellow;
 }
 
